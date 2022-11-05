@@ -37,7 +37,7 @@ python main.py --dataset [MSTAR | OpenSARShip]
 
 + The model on OpenSARShip is [OpenSARShip_50.pth](https://pan.baidu.com/s/1amXFM55tmYJwJyfGY6RYQQ). 提取码：83op
 
-You could download them and put them in `./chkpt` folder for evaluation.
+You could download models and put them in `./chkpt` folder for evaluation.
 
 ```
 python test.py --dataset [MSTAR | OpenSARShip]
