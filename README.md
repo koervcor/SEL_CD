@@ -21,7 +21,7 @@ torchvision==0.10.1
 # Getting Started
 1.Dataset download
 + MSTAR can be downloaded [here](https://pan.baidu.com/s/103kb3sg65iSY87gGqadpBA) 提取码：lzad
-+ OpenSARShip can be downloaded [here](https://pan.baidu.com/s/1uvF6yYwkfxyIc6XinRpfGg) 提取码：6rwb  
++ OpenSARShip can be downloaded [here](https://opensar.sjtu.edu.cn/) 
 
 You could download datasets and put them in `./data` folder for train and evaluation.
   
