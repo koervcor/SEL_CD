@@ -31,7 +31,7 @@ You could download datasets and put them in in `./data` folder for train and eva
 python main.py --dataset [MSTAR | OpenSARShip]
 ```
 
-3.Test
+3.Evaluation
 
 + Trained model on MSTAR is [MSTAR_40.pth](https://pan.baidu.com/s/1UHwWEI4WI3qSQKjYgvXd5g). 提取码：wuyw
 
