@@ -38,5 +38,5 @@ python test.py --dataset [MSTAR | OpenSARShip]
 2.Training
 
 ```
-python main.py --dataset [MSTAR | OpenSARShip]
+python train.py --dataset [MSTAR | OpenSARShip]
 ```
