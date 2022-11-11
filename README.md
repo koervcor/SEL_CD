@@ -24,21 +24,19 @@ torchvision==0.10.1
 + OpenSARShip can be downloaded [here](https://pan.baidu.com/s/1uvF6yYwkfxyIc6XinRpfGg) 提取码：6rwb  
 
 You could download datasets and put them in `./data` folder for train and evaluation.
-  
+
+3.Evaluation
+
++ The trained model has been placed in `./chkpt` folder.
+
++ You can directly evaluate the MSTAR and OpenSARShip datasets.
+
+```
+python test.py --dataset [MSTAR | OpenSARShip]
+```
+
 2.Training
 
 ```
 python main.py --dataset [MSTAR | OpenSARShip]
-```
-
-3.Evaluation
-
-+ Trained model on MSTAR is [MSTAR_40.pth](https://pan.baidu.com/s/1UHwWEI4WI3qSQKjYgvXd5g). 提取码：wuyw
-
-+ The model on OpenSARShip is [OpenSARShip_50.pth](https://pan.baidu.com/s/1amXFM55tmYJwJyfGY6RYQQ). 提取码：83op
-
-You could download models and put them in `./chkpt` folder for evaluation.
-
-```
-python test.py --dataset [MSTAR | OpenSARShip]
 ```
